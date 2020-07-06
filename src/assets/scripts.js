@@ -1,5 +1,3 @@
-import React from "react";
-
 function clickHandler() {
   console.log("Anyone clicked");
   document.querySelector("#aboutButton").classList.add("clicked");
