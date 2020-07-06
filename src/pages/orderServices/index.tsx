@@ -47,8 +47,7 @@ const orderServices: React.FC = () => {
         <h2 id="ourServicesDescription">
           Sabe aquele documento ou encomenda que você tem que entregar para uma
           pessoa que está centenas de quilômetros longe de ti? Nós entregamos a
-          encomenda! Quer ir visitar um parente e fazer uma surpresa para ele?
-          Nós também te levamos até ele cobrando um precinho bacana!
+          sua encomenda cobrando um precinho bacana!
         </h2>
       </div>
       <img alt="vector" src={vector} id="vector1"></img>
