@@ -1,0 +1,1008 @@
+/* === HOME === */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+body {
+  background-color: #3E3E3E;
+}
+
+img#homeLogo {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  margin: 25px 0px 0px 33px;
+}
+
+h1#chegaLogo {
+  position: absolute;
+  width: 636px;
+  height: 407px;
+  left: 200px;
+  top: 280px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 130px;
+  line-height: 191px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #EEEEEE;
+}
+
+div#express {
+  position: relative;
+  width: 105px;
+  height: 19px;
+  left: 730px;
+  top: 425px;
+  background: #EEEEEE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+}
+h2#express {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 7px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13em;
+  color: #FFBE5B;
+}
+
+div#homeButton {
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 454.15px;
+
+  background: #EEEEEE;
+  border-radius: 6px;
+
+}
+
+div#aboutButton {
+  margin-right: 0px;
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 366px;
+  background: #EEEEEE;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+div.clicked {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+div#contactButton {
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 542.29px;
+
+  background: #EEEEEE;
+  border-radius: 6px;
+
+}
+
+div#contactButton:hover {
+  background: #FFBE5B;
+  transition: 0.5s;
+}
+
+div#homeButton:hover {
+  background: #FFBE5B;
+  transition: 0.5s;
+
+}
+
+div#aboutButton:hover {
+  background: #FFBE5B;
+  transition: 0.5s;
+}
+
+a#contactButton {
+  position: relative;
+  padding: 13px 50% 11px 29%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3E3E3E;
+
+}
+
+a#homeButton {
+  position: relative;
+  padding: 13px 50% 11px 37%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3E3E3E;
+}
+
+a#aboutButton {
+  position: relative;
+  padding: 5px 30% 0px 28%;
+  font-style: italic;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 30px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3E3E3E;
+}
+
+div#footer {
+  width: 100%;
+  position: absolute;
+  height: 53px;
+  left: 0px;
+  top: 916px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: inline-grid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.105em;
+  color: #3E3E3E;
+  background: #FFBE5B;
+}
+
+div#orderButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 366px;
+
+  background: #EEEEEE;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#transferButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 278px;
+
+  background: #EEEEEE;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#rentalButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 190px;
+
+  background: #EEEEEE;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#rentalButton.activated{
+  opacity: 100;
+  visibility: visible;
+  transition: 0.5s;
+}
+div#transferButton.activated{
+  opacity: 100;
+  transition: 0.5s;
+  visibility: visible;
+}
+div#orderButton.activated{
+  opacity: 100;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+div#orderButton:hover{
+  background: #FFBE5B;
+  transition: 0.5s;
+}
+
+div#transferButton:hover {
+  background: #FFBE5B;
+  transition: 0.5s;
+}
+
+div#rentalButton:hover {
+  background: #FFBE5B;
+  transition: 0.5s;
+}
+
+a#orderServices {
+  position: absolute;
+  padding: 14px 27px 13px 10%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3E3E3E;
+
+}
+
+a#transferServices {
+  position: absolute;
+  padding: 14px 65px 13px 25%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3E3E3E;
+}
+
+a#rentalServices {
+  position: absolute;
+  padding: 14px 60px 13px 23%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3E3E3E;
+
+}
+
+
+/* === CONTACT === */
+
+body {
+  background-color: #3E3E3E;
+}
+
+a#homeLayout {
+  position: absolute;
+  width: 120px;
+  height: 90px;
+  left: 893px;
+  top: 29px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+
+  color: #EEEEEE;
+
+}
+
+a#servicesLayout {
+  position: absolute;
+  width: 162px;
+  height: 90px;
+  right: 252px;
+  top: 29px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  
+  color: #EEEEEE;
+  
+}
+
+a#contactsLayout {
+  position: absolute;
+  width: 141px;
+  height: 90px;
+  left: 1200px;
+  top: 29px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+
+  color: #EEEEEE;
+
+}
+
+a#contactsLayout:hover {
+  color: #FFBE5B;
+  transition: 0.5s
+}
+a#homeLayout:hover {
+  color: #FFBE5B;
+  transition: 0.5s
+}
+a#servicesLayout:hover {
+  color: #FFBE5B;
+  transition: 0.5s
+}
+
+div#numberIcon {
+  position: absolute;
+  width: 94px;
+  height: 75px;
+  left: 150px;
+  top: 405px;
+
+  background: #D09844;
+  border-radius: 5px;
+}
+
+img#phoneIcon {
+  position: absolute;
+  width: 57px;
+  height: 61px;
+  left: 12px;
+  top: 7px;
+
+}
+
+div#number {
+  position: absolute;
+  width: 504px;
+  height: 75px;
+  left: 233px;
+  top: 405px;
+
+  background: #FFBE5B;
+  border-radius: 3px;
+}
+
+h1#number {
+  position: absolute;
+  width: 504px;
+  height: 74px;
+  left: 25%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #3E3E3E;
+}
+
+div#emailIcon {
+  position: absolute;
+  width: 94px;
+  height: 75px;
+  left: 150px;
+  top: 489px;
+
+  background: #D09844;
+  border-radius: 5px;
+}
+
+img#emailIcon {
+  position: absolute;
+  width: 56px;
+  height: 54px;
+  top: 10px;
+  left: 12px;
+}
+
+div#email {
+  position: absolute;
+  width: 504px;
+  height: 75px;
+  left: 233px;
+  top: 489px;
+
+  background: #FFBE5B;
+  border-radius: 3px;
+}
+
+h1#email {
+  position: absolute;
+  width: 502px;
+  height: 73px;
+  left: 10%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #3E3E3E;
+}
+
+div#wppIcon {
+  position: absolute;
+  width: 94px;
+  height: 75px;
+  left: 150px;
+  top: 573px;
+
+  background: #D09844;
+  border-radius: 5px;
+}
+
+img#wppIcon {
+  position: absolute;
+  width: 50px;
+  height: 52px;
+  top: 11px;
+  left: 15px;
+
+}
+
+div#whatsapp {
+  position: absolute;
+  width: 504px;
+  height: 75px;
+  left: 233px;
+  top: 573px;
+
+  background: #FFBE5B;
+  border-radius: 3px;
+}
+
+h1#whatsapp {
+  position: absolute;
+  width: 504px;
+  height: 74px;
+  left: 25%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #3E3E3E;
+}
+
+div#instagramIcon {
+  position: absolute;
+  width: 94px;
+  height: 75px;
+  left: 150px;
+  top: 657px;
+
+  background: #D09844;
+  border-radius: 5px;
+}
+
+img#instagramIcon {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 13px;
+  top: 10px;
+
+}
+
+div#instagram {
+  position: absolute;
+  width: 504px;
+  height: 75px;
+  left: 233px;
+  top: 657px;
+  
+  background: #FFBE5B;
+  border-radius: 3px;
+}
+
+h1#instagram {
+  position: absolute;
+  width: 502px;
+  height: 75px;
+  left: 18%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #3E3E3E;
+}
+
+img#firstArrow {
+  position: absolute;
+  width: 48px;
+  left: 856px;
+  top: 550px;
+  transform: rotate(90deg)
+}
+
+img#secondArrow {
+  position: absolute;
+  width: 36px;
+  left: 867px;
+  top: 555px;
+  transform: rotate(90deg);
+}
+
+h1#nossosContatos {
+  position: absolute;
+  width: 614px;
+  height: 125px;
+  left: 1000px;
+  top: 501px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #FFBE5B;
+
+}
+
+div#servicesMenu {
+  position: absolute;
+  width: 141px;
+  height: 0px;
+  left: 1516px;
+  top: 110px;
+  background: #EEEEEE;
+  visibility: hidden;
+}
+
+div#servicesMenu.activated {
+  height: 163px;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+div#menuDetail {
+  position: absolute;
+  width: 141px;
+  height: 11px;
+  top: 100%;
+  background: #D09844;
+
+}
+
+a#orderMenu {
+  position: absolute;
+  left: 8px;
+  top: 22px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#orderMenu:hover {
+  color: #D09844;
+  transition: 0.25s;
+}
+
+a#rentalMenu {
+  position: absolute;
+  left: 25px;
+  top: 67px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#rentalMenu:hover {
+  color: #D09844;
+  transition: 0.25s;
+}
+
+a#transferMenu { 
+  position: absolute;
+  left: 27px;
+  top: 115px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#transferMenu:hover {
+  color: #D09844;
+  transition: 0.25s;
+}
+
+h1#ourServices {
+  position: absolute;
+  left: 1078px;
+  top: 371px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #FFBE5B;
+}
+
+h2#ourServicesDescription {
+  position: absolute;
+  width: 500px;
+  height: 353px;
+  left: 1075px;
+  top: 434px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 0.005em;
+
+  color: #EEEEEE;
+}
+
+img#vector1 {
+  position: absolute;
+  width: 737px;
+  height: 775px;
+  left: 120.0px;
+  top: 169.54px;
+  z-index: 1;
+  transform: rotate(0.07deg);
+
+
+}
+
+img#orderImage {
+  position: absolute;
+  width: 734px;
+  height: 774px;
+  left: 121px;
+  top: 170px;
+
+}
+
+h1#transferServicesTitle {
+  position: absolute;
+  width: 525px;
+  height: 71px;
+  left: 1169px;
+  top: 405px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #FFBE5B;
+  
+}
+
+h2#transferServicesDescription {
+  position: absolute;
+  width: 452px;
+  height: 426px;
+  left: 1154px;
+  top: 466px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 0.005em;
+  color: #EEEEEE;
+  
+}
+
+img#vector2 {
+  position: absolute;
+  width: 824.5px;
+  height: 626.5px;
+  left: 200.5px;
+  top: 230.5px;
+  z-index: 1;
+
+}
+
+img#transferImage {
+  position: absolute;
+  width: 822.04px;
+  height: 625.4px;
+  left: 200.91px;
+  top: 231px;
+}
+
+img#vector3 {
+  position: absolute;
+  width: 739px;
+  height: 500px;
+  left: 108px;
+  top: 273px;
+  z-index: 1;
+}
+
+img#rentalImage {
+  position: absolute;
+  width: 738px;
+  height: 493px;
+  left: 109px;
+  top: 275px;
+}
+
+section#rentOptions {
+  position: absolute;
+  left: 1100px;
+  top: 288px;
+}
+
+div#comumCar {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  
+  background: #FFBE5B;
+  border-radius: 5px;
+  
+}
+div#comumCar2 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 120px;
+  
+  background: #FFBE5B;
+  border-radius: 5px;
+  
+}
+div#comumCar3 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 240px;
+  
+  background: #FFBE5B;
+  border-radius: 5px;
+  
+}
+div#comumCar4 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 360px;
+  
+  background: #FFBE5B;
+  border-radius: 5px;
+  
+}
+
+div#comumCarImage {
+  position: absolute;
+  width: 124px;
+  height: 99px;
+  
+  background: #D09844;
+  border-radius: 5px;
+}
+
+img#golImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#gol {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 50%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3E3E3E;
+}
+
+img#saveiroImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#saveiro {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 47%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3E3E3E;
+}
+
+img#vanImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#van {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 54%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3E3E3E;
+}
+
+img#truckImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#caminhao {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 46%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3E3E3E;
+}
+
+h1#rentaCarOptions {
+  position: absolute;
+  width: 525px;
+  height: 71px;
+  left: 1087px;
+  top: 217px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #FFBE5B;
+
+}

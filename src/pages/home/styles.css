@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+body {
+  background-color: #3e3e3e;
+}
+
+img#homeLogo {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  margin: 25px 0px 0px 33px;
+}
+
+h1#chegaLogo {
+  position: absolute;
+  width: 636px;
+  height: 407px;
+  left: 200px;
+  top: 280px;
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 130px;
+  line-height: 191px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #eeeeee;
+}
+
+div#express {
+  position: relative;
+  width: 105px;
+  height: 19px;
+  left: 730px;
+  top: 425px;
+  background: #eeeeee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+h2#express {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 7px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.13em;
+  color: #ffbe5b;
+}
+
+div#homeButton {
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 454.15px;
+
+  background: #eeeeee;
+  border-radius: 6px;
+}
+
+div#aboutButton {
+  margin-right: 0px;
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 366px;
+  background: #eeeeee;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+div.clicked {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+div#contactButton {
+  position: absolute;
+  width: 372px;
+  height: 65.71px;
+  left: 1120px;
+  bottom: 542.29px;
+
+  background: #eeeeee;
+  border-radius: 6px;
+}
+
+div#contactButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#homeButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#aboutButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+a#contactButton {
+  position: relative;
+  padding: 13px 50% 11px 29%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3e3e3e;
+}
+
+a#homeButton {
+  position: relative;
+  padding: 13px 50% 11px 37%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3e3e3e;
+}
+
+a#aboutButton {
+  position: relative;
+  padding: 5px 30% 0px 28%;
+  font-style: italic;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 30px;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #3e3e3e;
+}
+
+div#footer {
+  width: 100%;
+  position: absolute;
+  height: 53px;
+  left: 0px;
+  top: 916px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: inline-grid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.105em;
+  color: #3e3e3e;
+  background: #ffbe5b;
+}
+
+div#orderButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 366px;
+
+  background: #eeeeee;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#transferButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 278px;
+
+  background: #eeeeee;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#rentalButton {
+  position: absolute;
+  width: 251px;
+  height: 66px;
+  left: 1120px;
+  bottom: 190px;
+
+  background: #eeeeee;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+div#rentalButton.activated {
+  opacity: 100;
+  visibility: visible;
+  transition: 0.5s;
+}
+div#transferButton.activated {
+  opacity: 100;
+  transition: 0.5s;
+  visibility: visible;
+}
+div#orderButton.activated {
+  opacity: 100;
+  transition: 0.5s;
+  visibility: visible;
+}
+
+div#orderButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#transferButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#rentalButton:hover {
+  background: #ffbe5b;
+  transition: 0.5s;
+}
+
+a#orderServices {
+  position: absolute;
+  padding: 14px 27px 13px 10%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3e3e3e;
+}
+
+a#transferServices {
+  position: absolute;
+  padding: 14px 65px 13px 25%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3e3e3e;
+}
+
+a#rentalServices {
+  position: absolute;
+  padding: 14px 60px 13px 23%;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #3e3e3e;
+}
