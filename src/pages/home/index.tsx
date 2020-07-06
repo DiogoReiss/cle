@@ -23,8 +23,10 @@ const Home: React.FC = () => {
             CONTATO
           </Link>
         </div>
-        <div id="aboutButton" className="">
-          <h1 id="aboutButton">NOSSO SERVIÇO</h1>
+        <div id="aboutButton" className="" onClick={scripts}>
+          <Link to="" id="aboutButton" onClick={scripts}>
+            NOSSO SERVIÇO
+          </Link>
         </div>
         <div id="contactButton">
           <Link to="/" id="homeButton">
@@ -50,8 +52,6 @@ const Home: React.FC = () => {
       <div id="footer">
         EMAIL: rrlocacao2017@gmail.com NUMERO: (71) 9 8719-2060
       </div>
-
-      <script>{scripts}</script>
     </div>
   );
 };
