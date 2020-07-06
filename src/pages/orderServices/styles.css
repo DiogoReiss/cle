@@ -1,0 +1,129 @@
+body {
+  background-color: #3e3e3e;
+}
+
+img#homeLogo {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  margin: 25px 0px 0px 33px;
+}
+
+a#homeLayout {
+  position: absolute;
+  margin-top: 35px;
+  left: 893px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+div#servicesLayout {
+  position: absolute;
+  right: 188px;
+  margin-top: 35px;
+  top: 29px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+a#contactsLayout {
+  position: absolute;
+  margin-top: 35px;
+  left: 1200px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+a#contactsLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+a#homeLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+div#servicesLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+
+h1#ourServices {
+  position: absolute;
+  left: 1078px;
+  top: 371px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #ffbe5b;
+}
+
+h2#ourServicesDescription {
+  position: absolute;
+  width: 500px;
+  height: 353px;
+  left: 1075px;
+  top: 434px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 0.005em;
+
+  color: #eeeeee;
+}
+
+img#vector1 {
+  position: absolute;
+  width: 737px;
+  height: 775px;
+  left: 120px;
+  top: 169.54px;
+  z-index: 1;
+  transform: rotate(0.07deg);
+}
+
+img#orderImage {
+  position: absolute;
+  width: 734px;
+  height: 774px;
+  left: 121px;
+  top: 170px;
+}

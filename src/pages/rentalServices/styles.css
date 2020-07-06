@@ -1,0 +1,262 @@
+body {
+  background-color: #3e3e3e;
+}
+
+img#homeLogo {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  margin: 25px 0px 0px 33px;
+}
+
+a#homeLayout {
+  position: absolute;
+  margin-top: 35px;
+  left: 893px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+div#servicesLayout {
+  position: absolute;
+  right: 188px;
+  margin-top: 35px;
+  top: 29px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+div#servicesMenu {
+  z-index: 1;
+}
+a#contactsLayout {
+  position: absolute;
+  margin-top: 35px;
+  left: 1200px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+a#contactsLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+a#homeLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+div#servicesLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+
+img#vector3 {
+  position: absolute;
+  width: 739px;
+  height: 500px;
+  left: 108px;
+  top: 273px;
+  z-index: 1;
+}
+
+img#rentalImage {
+  position: absolute;
+  width: 738px;
+  height: 493px;
+  left: 109px;
+  top: 275px;
+}
+
+section#rentOptions {
+  position: absolute;
+  left: 1100px;
+  top: 288px;
+}
+
+div#comumCar {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+
+  background: #ffbe5b;
+  border-radius: 5px;
+}
+div#comumCar2 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 120px;
+
+  background: #ffbe5b;
+  border-radius: 5px;
+}
+div#comumCar3 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 240px;
+
+  background: #ffbe5b;
+  border-radius: 5px;
+}
+div#comumCar4 {
+  position: absolute;
+  width: 502px;
+  height: 99px;
+  top: 360px;
+
+  background: #ffbe5b;
+  border-radius: 5px;
+}
+
+div#comumCarImage {
+  position: absolute;
+  width: 124px;
+  height: 99px;
+
+  background: #d09844;
+  border-radius: 5px;
+}
+
+img#golImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#gol {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 50%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3e3e3e;
+}
+
+img#saveiroImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#saveiro {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 47%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3e3e3e;
+}
+
+img#vanImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#van {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 54%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3e3e3e;
+}
+
+img#truckImage {
+  position: absolute;
+  width: 120px;
+  height: 64px;
+  margin-top: 15%;
+}
+
+h1#caminhao {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 46%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #3e3e3e;
+}
+
+h1#rentaCarOptions {
+  position: absolute;
+  width: 525px;
+  height: 71px;
+  left: 1087px;
+  top: 217px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #ffbe5b;
+}
