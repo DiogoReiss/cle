@@ -8,18 +8,6 @@ body {
   background-color: #3e3e3e;
 }
 
-@media screen and (max-width: 1142px) {
-  section#linkButtons {
-    left: 18.5%;
-    bottom: 28%;
-  }
-
-  section#options {
-    left: 18.5%;
-    bottom: 12%;
-  }
-}
-
 img#homeLogo {
   position: absolute;
   width: 107px;
@@ -298,4 +286,92 @@ a#rentalServices {
   text-align: center;
   letter-spacing: -0.05em;
   color: #3e3e3e;
+}
+
+@media screen and (max-height: 700px) {
+  section#linkButtons {
+    left: 30% !important;
+    bottom: 10% !important;
+  }
+
+  section#options {
+    bottom: -15% !important;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  div#footer {
+    width: 158%;
+    height: 6.8%;
+    top: 152%;
+  }
+
+  h1#chegaLogo {
+    font-size: 100px;
+    left: 20%;
+  }
+  div#express {
+    left: 20%;
+  }
+  h2#express {
+    left: 20%;
+    font-size: 20px;
+  }
+  section#linkButtons {
+    left: 30%;
+    bottom: 19%;
+  }
+  section#options {
+    bottom: 0;
+    left: 30%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 640px) {
+  #chegaLogo {
+    font-size: 80px;
+  }
+  section#linkButtons {
+    left: 30%;
+    bottom: 19%;
+  }
+  section#options {
+    top: 5%;
+    left: 30%;
+  }
+  div#footer {
+    width: 158%;
+    height: 6.8%;
+    top: 152%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  #footer {
+    width: 63.5vh;
+  }
+  #express {
+    left: 5%;
+  }
+  section#linkButtons {
+    left: 18.5%;
+    bottom: 28%;
+  }
+
+  section#options {
+    left: 18.5%;
+    bottom: 12%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1142px) {
+  section#linkButtons {
+    left: 18.5%;
+    bottom: 28%;
+  }
+
+  section#options {
+    left: 18.5%;
+    bottom: 12%;
+  }
 }
