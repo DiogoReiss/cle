@@ -13,9 +13,9 @@ const Home: React.FC = () => {
           <img alt="logo" src={logo} id="homeLogo"></img>
         </Link>
       </div>
-      <h1 id="chegaLogo">CHEGALOGO</h1>
       <div id="express">
-        <h2 id="express">EXPRESS</h2>
+        <h1 id="chegaLogo">CHEGALOGO</h1>
+        <h2 id="express">ENCOMENDAS EXPRESS</h2>
       </div>
       <section id="linkButtons">
         <div id="homeButton">
@@ -28,11 +28,8 @@ const Home: React.FC = () => {
             NOSSO SERVIÇO
           </Link>
         </div>
-        <div id="contactButton">
-          <Link to="/" id="homeButton">
-            INÍCIO
-          </Link>
-        </div>
+      </section>
+      <section id="options">
         <div id="orderButton" className="">
           <Link to="/orderServices" id="orderServices">
             ENCOMENDAS

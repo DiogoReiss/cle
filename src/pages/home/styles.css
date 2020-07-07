@@ -8,6 +8,18 @@ body {
   background-color: #3e3e3e;
 }
 
+@media screen and (max-width: 1142px) {
+  section#linkButtons {
+    left: 18.5%;
+    bottom: 28%;
+  }
+
+  section#options {
+    left: 18.5%;
+    bottom: 12%;
+  }
+}
+
 img#homeLogo {
   position: absolute;
   width: 107px;
@@ -16,11 +28,8 @@ img#homeLogo {
 }
 
 h1#chegaLogo {
-  position: absolute;
-  width: 636px;
-  height: 407px;
-  left: 200px;
-  top: 280px;
+  left: 12%;
+  top: 40%;
   font-family: Anton;
   font-style: normal;
   font-weight: normal;
@@ -34,25 +43,19 @@ h1#chegaLogo {
 }
 
 div#express {
-  position: relative;
-  width: 105px;
-  height: 19px;
-  left: 730px;
-  top: 425px;
-  background: #eeeeee;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  position: absolute;
+  left: 10%;
+  top: 39%;
 }
 h2#express {
   position: absolute;
-  width: 0;
-  height: 0;
-  left: 7px;
-  top: 10px;
+  height: 100%;
+  top: 37%;
+  left: 24%;
   font-family: Roboto;
   font-style: italic;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 21px;
   display: flex;
   align-items: center;
@@ -61,41 +64,43 @@ h2#express {
   color: #ffbe5b;
 }
 
-div#homeButton {
+section#linkButtons {
+  left: 60%;
   position: absolute;
+  bottom: 45%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 4%;
+}
+
+div#homeButton {
   width: 372px;
   height: 65.71px;
-  left: 1120px;
-  bottom: 454.15px;
-
   background: #eeeeee;
   border-radius: 6px;
 }
 
 div#aboutButton {
   margin-right: 0px;
-  position: absolute;
   width: 372px;
   height: 65.71px;
-  left: 1120px;
-  bottom: 366px;
   background: #eeeeee;
   border-radius: 6px;
   cursor: pointer;
+  z-index: 1;
 }
 
 div.clicked {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
+  z-index: 2;
 }
 
 div#contactButton {
   position: absolute;
   width: 372px;
   height: 65.71px;
-  left: 1120px;
-  bottom: 542.29px;
 
   background: #eeeeee;
   border-radius: 6px;
@@ -164,9 +169,9 @@ a#aboutButton {
 div#footer {
   width: 100%;
   position: absolute;
-  height: 53px;
+  height: 3.8%;
   left: 0px;
-  top: 916px;
+  top: 96.2%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -181,12 +186,9 @@ div#footer {
 }
 
 div#orderButton {
-  position: absolute;
+  margin-bottom: 2%;
   width: 251px;
   height: 66px;
-  left: 1120px;
-  bottom: 366px;
-
   background: #eeeeee;
   border-radius: 6px;
   opacity: 0;
@@ -194,25 +196,19 @@ div#orderButton {
 }
 
 div#transferButton {
-  position: absolute;
   width: 251px;
   height: 66px;
-  left: 1120px;
-  bottom: 278px;
-
   background: #eeeeee;
   border-radius: 6px;
   opacity: 0;
   visibility: hidden;
+  margin-bottom: 2%;
 }
 
 div#rentalButton {
-  position: absolute;
   width: 251px;
   height: 66px;
-  left: 1120px;
-  bottom: 190px;
-
+  margin-bottom: 2%;
   background: #eeeeee;
   border-radius: 6px;
   opacity: 0;
@@ -252,7 +248,7 @@ div#rentalButton:hover {
 
 a#orderServices {
   position: absolute;
-  padding: 14px 27px 13px 10%;
+  padding: 4% 7% 3% 7%;
   font-family: Roboto;
   font-style: italic;
   font-weight: 500;
@@ -265,9 +261,18 @@ a#orderServices {
   color: #3e3e3e;
 }
 
+section#options {
+  left: 60%;
+  position: absolute;
+  bottom: 29%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2%;
+}
+
 a#transferServices {
   position: absolute;
-  padding: 14px 65px 13px 25%;
+  padding: 3% 17% 4% 18%;
   font-family: Roboto;
   font-style: italic;
   font-weight: 500;
@@ -282,7 +287,7 @@ a#transferServices {
 
 a#rentalServices {
   position: absolute;
-  padding: 14px 60px 13px 23%;
+  padding: 3% 15% 4% 15%;
   font-family: Roboto;
   font-style: italic;
   font-weight: 500;

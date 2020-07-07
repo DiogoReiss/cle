@@ -1,0 +1,36 @@
+@media screen and (max-height: 967px) {
+  #express {
+    position: absolute;
+    left: 10%;
+    top: 34%;
+  }
+}
+
+@media screen and (min-width: 375) and (max-width: 640px) {
+  #chegaLogo {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 768) {
+  #footer {
+    width: 63.5vh;
+  }
+  #express {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 376) {
+  #footer {
+    width: 75.5vh;
+  }
+
+  #chegaLogo {
+    font-size: 100px;
+  }
+  #express {
+    left: 14%;
+    font-size: 20px;
+  }
+}
