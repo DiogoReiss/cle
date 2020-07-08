@@ -1,12 +1,13 @@
-var click = 0;
-function menuScript() {
-  const menuBackground = document.querySelector("#servicesMenu");
-
-  menuBackground.classList.add("activated");
-  click += 1;
-  if (click === 2) {
+function menuScript(func) {
+  if (func === "openMenu") {
+    const menuBackground = document.querySelector("#servicesMenu");
+    menuBackground.classList.add("activated");
+    menuBackground.classList.remove("closed");
+  }
+  if (func === "closeMenu") {
+    const menuBackground = document.querySelector("#servicesMenu");
     menuBackground.classList.remove("activated");
-    click = 0;
+    menuBackground.classList.add("closed");
   }
 }
 

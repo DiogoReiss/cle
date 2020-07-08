@@ -9,35 +9,39 @@ img#homeLogo {
   margin: 25px 0px 0px 33px;
 }
 
-a#homeLayout {
+section#menu {
   position: absolute;
-  margin-top: 35px;
-  left: 893px;
-  top: 29px;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  width: 10%;
+  grid-column-gap: 1%;
+  left: 50%;
+}
+
+a#homeLayout {
+  margin: 20% 32% 20% 32%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  text-decoration: none;
   text-align: center;
   letter-spacing: 0.17em;
   color: #eeeeee;
 }
 
 div#servicesLayout {
-  position: absolute;
-  right: 188px;
-  margin-top: 35px;
-  top: 29px;
-  cursor: pointer;
+  margin: 15% 32% 15% 32%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
-  display: flex;
+  cursor: pointer;
+  display: inline-flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.17em;
@@ -45,22 +49,19 @@ div#servicesLayout {
 }
 
 a#contactsLayout {
-  position: absolute;
-  margin-top: 35px;
-  left: 1200px;
-  top: 29px;
+  margin: 15% 32% 15% 32%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 28px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  text-decoration: none;
   text-align: center;
   letter-spacing: 0.17em;
   color: #eeeeee;
 }
-
 a#contactsLayout:hover {
   color: #ffbe5b;
   transition: 0.5s;

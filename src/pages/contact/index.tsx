@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
+import { FiX } from "react-icons/fi";
 
 import icon from "./favicon.png";
 import phone from "../../assets/phone.png";
@@ -19,62 +20,84 @@ const Contact: React.FC = () => {
           <Link to="/" id="homeLogo">
             <img alt="logo" src={icon} id="homeLogo"></img>
           </Link>
-          <Link to="/" id="homeLayout">
-            INÍCIO
-          </Link>
-          <div id="servicesLayout" className="" onClick={menuScript}>
-            NOSSOS SERVIÇOS
-          </div>
-          <Link to="/contact" id="contactsLayout">
-            CONTATO
-          </Link>
-
-          <div id="servicesMenu" className="">
-            <div id="menuDetail" className=""></div>
-            <Link to="/orderServices" id="orderMenu" className="">
-              ENCOMENDAS
+          <section id="menu">
+            <Link to="/" id="homeLayout">
+              INÍCIO
             </Link>
-            <Link to="/rentalServices" id="rentalMenu" className="">
-              LOCAÇÃO
+            <div
+              id="servicesLayout"
+              className=""
+              onClick={() => menuScript("openMenu")}
+            >
+              NOSSOS SERVIÇOS
+            </div>
+            <Link to="/contact" id="contactsLayout">
+              CONTATO
             </Link>
-            <Link to="/transferServices" id="transferMenu" className="">
-              VIAGENS
-            </Link>
-          </div>
+          </section>
+          <section id="subMenu">
+            <div id="servicesMenu" className="">
+              <div id="menuDetail" className="">
+                <a id="closeButton">
+                  <FiX
+                    id="closeButton"
+                    onClick={() => menuScript("closeMenu")}
+                  />
+                </a>
+              </div>
+              <Link to="/orderServices" id="orderMenu" className="">
+                ENCOMENDAS
+              </Link>
+              <Link to="/rentalServices" id="rentalMenu" className="">
+                LOCAÇÃO
+              </Link>
+              <Link to="/transferServices" id="transferMenu" className="">
+                VIAGENS
+              </Link>
+            </div>
+          </section>
         </div>
       </header>
       <section id="contactButtons">
-        <div id="numberIcon">
-          <img alt="celular" src={phone} id="phoneIcon"></img>
+        <div id="numberGrid">
+          <div id="numberIcon">
+            <img alt="celular" src={phone} id="phoneIcon"></img>
+          </div>
+          <div id="number">
+            <h1 id="number">(71) 98719-2060</h1>
+          </div>
         </div>
-        <div id="number">
-          <h1 id="number">(71) 98719-2060</h1>
+        <div id="emailGrid">
+          <div id="emailIcon">
+            <img alt="email" src={email} id="emailIcon"></img>
+          </div>
+          <div id="email">
+            <h1 id="email">rrlocacao2017@gmail.com</h1>
+          </div>
         </div>
-        <div id="emailIcon">
-          <img alt="email" src={email} id="emailIcon"></img>
+        <div id="whatsappGrid">
+          <div id="wppIcon">
+            <a href="https://bit.ly/3iCUyk0">
+              <img alt="WhatsApp" src={app} id="wppIcon"></img>
+            </a>
+          </div>
+          <div id="whatsapp">
+            <a href="https://bit.ly/3iCUyk0">
+              <h1 id="whatsapp">(71) 98719-2060</h1>
+            </a>
+          </div>
         </div>
-        <div id="email">
-          <h1 id="email">rrlocacao2017@gmail.com</h1>
-        </div>
-        <div id="wppIcon">
-          <a href="https://bit.ly/3iCUyk0">
-            <img alt="WhatsApp" src={app} id="wppIcon"></img>
-          </a>
-        </div>
-        <div id="whatsapp">
-          <a href="https://bit.ly/3iCUyk0">
-            <h1 id="whatsapp">(71) 98719-2060</h1>
-          </a>
-        </div>
-        <div id="instagramIcon">
-          <a href="https://www.instagram.com/chegalogoexpress/">
-            <img alt="instagram" src={instagram} id="instagramIcon"></img>
-          </a>
-        </div>
-        <div id="instagram">
-          <a href="https://www.instagram.com/chegalogoexpress/">
-            <h1 id="instagram">@chegalogoexpress</h1>
-          </a>
+        <div id="instagramGrid">
+          <div id="instagramIcon">
+            <a href="https://www.instagram.com/chegalogoexpress/">
+              <img alt="instagram" src={instagram} id="instagramIcon"></img>
+            </a>
+          </div>
+          <div id="instagram">
+            <a href="https://www.instagram.com/chegalogoexpress/">
+              <h1 id="instagram">@chegalogoexpress</h1>
+            </a>
+          </div>
         </div>
       </section>
 
