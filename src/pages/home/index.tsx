@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./favicon.png";
 import scripts from "../../assets/scripts";
-import "./styles.css";
+import "./home.css";
 
 const Home: React.FC = () => {
   return (

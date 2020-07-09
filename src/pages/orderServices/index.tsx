@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import icon from "./favicon.png";
 import menuScript from "../../assets/menu";
-import "./styles.css";
+import "./order.css";
 
 import vector from "../../assets/Vector 1.png";
 import orders from "../../assets/orders.jpg";

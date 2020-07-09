@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import icon from "./favicon.png";
 import menuScript from "../../assets/menu";
-import "./styles.css";
+import "./rental.css";
 
 import vector from "../../assets/Vector 1 (2).png";
 import rentaCar from "../../assets/rentaCar.jpg";

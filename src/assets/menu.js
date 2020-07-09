@@ -1,11 +1,11 @@
 function menuScript(func) {
   if (func === "openMenu") {
-    const menuBackground = document.querySelector("#servicesMenu");
-    menuBackground.classList.add("activated");
-    menuBackground.classList.remove("closed");
+    const menu = document.querySelector("#servicesMenuContact");
+    menu.classList.add("activated");
+    menu.classList.remove("closed");
   }
   if (func === "closeMenu") {
-    const menuBackground = document.querySelector("#servicesMenu");
+    const menuBackground = document.querySelector("#servicesMenuContact");
     menuBackground.classList.remove("activated");
     menuBackground.classList.add("closed");
   }

@@ -1,0 +1,250 @@
+body {
+  background-color: #3e3e3e;
+}
+
+img#homeLogo {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  margin: 25px 0px 0px 33px;
+}
+
+section#menu {
+  position: absolute;
+  display: inline-flex;
+  left: 55%;
+}
+
+a#homeLayout {
+  margin: 20% 15% 20% 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+div#servicesLayout {
+  margin: 15% 15% 15% 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+h1#ourServicesh1 {
+  margin: 15% 32% 15% 32%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+a#contactsLayout {
+  margin: 15% 15% 15% 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+a#contactsLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+a#homeLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+div#servicesLayout:hover {
+  color: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#servicesMenu {
+  position: absolute;
+  border-radius: 10px;
+  width: 141px;
+  height: 0px;
+  left: 70.1%;
+  top: 15%;
+  background: #eeeeee;
+  visibility: hidden;
+}
+
+div#servicesMenu.activated {
+  height: 163px;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+div#servicesMenu.closed {
+  height: 0px;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+div#menuDetail {
+  border-radius: 3px;
+  position: absolute;
+  width: 141px;
+  height: 27px;
+  top: 90%;
+  background: #d09844;
+}
+
+a#orderMenu {
+  position: absolute;
+  left: 8px;
+  top: 22px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#orderMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+a#rentalMenu {
+  position: absolute;
+  left: 25px;
+  top: 67px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#rentalMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+a#transferMenu {
+  position: absolute;
+  left: 27px;
+  top: 115px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#transferMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+#closeButton {
+  color: #eeeeee;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+#closeButton:hover {
+  color: #3e3e3e;
+  transition: 0.5s;
+}
+
+h1#transferServicesTitle {
+  position: absolute;
+  width: 525px;
+  height: 71px;
+  left: 1169px;
+  top: 405px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #ffbe5b;
+}
+
+h2#transferServicesDescription {
+  position: absolute;
+  width: 452px;
+  height: 426px;
+  left: 1154px;
+  top: 466px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 0.005em;
+  color: #eeeeee;
+}
+
+img#vector2 {
+  position: absolute;
+  width: 824.5px;
+  height: 626.5px;
+  left: 200.5px;
+  top: 230.5px;
+  z-index: 1;
+}
+
+img#transferImage {
+  position: absolute;
+  width: 822.04px;
+  height: 625.4px;
+  left: 200.91px;
+  top: 231px;
+}

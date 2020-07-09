@@ -11,15 +11,12 @@ img#homeLogo {
 
 section#menu {
   position: absolute;
-  grid-template-columns: 1fr 1fr 1fr;
-  display: grid;
-  width: 10%;
-  grid-column-gap: 1%;
-  left: 50%;
+  display: inline-flex;
+  left: 55%;
 }
 
 a#homeLayout {
-  margin: 20% 32% 20% 32%;
+  margin: 20% 15% 20% 15%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -34,6 +31,21 @@ a#homeLayout {
 }
 
 div#servicesLayout {
+  margin: 15% 15% 15% 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.17em;
+  color: #eeeeee;
+}
+
+h1#ourServicesh1 {
   margin: 15% 32% 15% 32%;
   font-family: Roboto;
   font-style: normal;
@@ -49,7 +61,7 @@ div#servicesLayout {
 }
 
 a#contactsLayout {
-  margin: 15% 32% 15% 32%;
+  margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -73,6 +85,116 @@ a#homeLayout:hover {
 }
 div#servicesLayout:hover {
   color: #ffbe5b;
+  transition: 0.5s;
+}
+
+div#servicesMenu {
+  position: absolute;
+  border-radius: 10px;
+  width: 141px;
+  height: 0px;
+  left: 70.1%;
+  top: 15%;
+  background: #eeeeee;
+  visibility: hidden;
+}
+
+div#servicesMenu.activated {
+  height: 163px;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+div#servicesMenu.closed {
+  height: 0px;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+div#menuDetail {
+  border-radius: 3px;
+  position: absolute;
+  width: 141px;
+  height: 27px;
+  top: 90%;
+  background: #d09844;
+}
+
+a#orderMenu {
+  position: absolute;
+  left: 8px;
+  top: 22px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#orderMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+a#rentalMenu {
+  position: absolute;
+  left: 25px;
+  top: 67px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#rentalMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+a#transferMenu {
+  position: absolute;
+  left: 27px;
+  top: 115px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #3e3e3e;
+}
+
+a#transferMenu:hover {
+  color: #d09844;
+  transition: 0.25s;
+}
+
+#closeButton {
+  color: #eeeeee;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+#closeButton:hover {
+  color: #3e3e3e;
   transition: 0.5s;
 }
 
