@@ -38,12 +38,12 @@ const Contact: React.FC = () => {
           <section id="subMenu">
             <div id="servicesMenu" className="">
               <div id="menuDetail" className="">
-                <a id="closeButton">
+                <div id="closeButton">
                   <FiX
                     id="closeButton"
                     onClick={() => menuScript("closeMenu")}
                   />
-                </a>
+                </div>
               </div>
               <Link to="/orderServices" id="orderMenu" className="">
                 ENCOMENDAS
