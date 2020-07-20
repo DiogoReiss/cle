@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import icon from "./favicon.png";
-import menuScript from "../../assets/menu";
+import menuScript from "../../assets/menuRental";
 import "./rental.css";
 
-import vector from "../../assets/Vector 1 (2).png";
-import rentaCar from "../../assets/rentaCar.jpg";
+import rentaCar from "../../assets/rentaCar.png";
 import car from "../../assets/gol.png";
 import saveiro from "../../assets/saveiro.png";
 import vans from "../../assets/fiat van.png";
@@ -44,7 +43,6 @@ const rentalServices: React.FC = () => {
         </div>
       </header>
 
-      <img alt="vetor " src={vector} id="vector3"></img>
       <img alt="aluguel" src={rentaCar} id="rentalImage"></img>
       <h1 id="rentaCarOptions">
         Alugue um carro de acordo com a sua necessidade

@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import icon from "./favicon.png";
-import menuScript from "../../assets/menu";
+import menuScript from "../../assets/menuTransfer";
 import "./transfer.css";
 
-import vector from "../../assets/Vector 1 (1).png";
 import transfer from "../../assets/transfer.png";
 
 const transferServices: React.FC = () => {
@@ -50,7 +49,6 @@ const transferServices: React.FC = () => {
           tempo para otimizar o seu ! Chegue rapidamente onde você deseja.
         </h2>
       </div>
-      <img alt="vector" src={vector} id="vector2"></img>
       <div id="transferImage">
         <img alt="encomendas" src={transfer} id="transferImage"></img>
       </div>

@@ -9,13 +9,13 @@ img#homeLogo {
   margin: 25px 0px 0px 33px;
 }
 
-section#menu {
+section#menuContactPageOrder {
   position: absolute;
   display: inline-flex;
   left: 55%;
 }
 
-a#homeLayout {
+a#homeLayoutOrder {
   margin: 20% 15% 20% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -30,7 +30,7 @@ a#homeLayout {
   color: #eeeeee;
 }
 
-div#servicesLayout {
+div#servicesLayoutOrder {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -45,8 +45,7 @@ div#servicesLayout {
   color: #eeeeee;
 }
 
-h1#ourServicesh1 {
-  margin: 15% 32% 15% 32%;
+h1#ourServicesh1Order {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -60,7 +59,7 @@ h1#ourServicesh1 {
   color: #eeeeee;
 }
 
-a#contactsLayout {
+a#contactsLayoutOrder {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -75,43 +74,43 @@ a#contactsLayout {
   color: #eeeeee;
 }
 
-a#contactsLayout:hover {
+a#contactsLayoutOrder:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-a#homeLayout:hover {
+a#homeLayoutOrder:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-div#servicesLayout:hover {
+div#servicesLayoutOrder:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
 
-div#servicesMenu {
+div#servicesMenuOrder {
   position: absolute;
   border-radius: 10px;
   width: 141px;
   height: 0px;
-  left: 70.1%;
-  top: 15%;
+  left: 62.1%;
+  top: 65%;
   background: #eeeeee;
   visibility: hidden;
 }
 
-div#servicesMenu.activated {
+div#servicesMenuOrder.activated {
   height: 163px;
   visibility: visible;
   transition: 0.5s;
 }
 
-div#servicesMenu.closed {
+div#servicesMenuOrder.closed {
   height: 0px;
   visibility: hidden;
   transition: 0.5s;
 }
 
-div#menuDetail {
+div#menuDetailOrder {
   border-radius: 3px;
   position: absolute;
   width: 141px;
@@ -120,7 +119,7 @@ div#menuDetail {
   background: #d09844;
 }
 
-a#orderMenu {
+a#orderMenuOrder {
   position: absolute;
   left: 8px;
   top: 22px;
@@ -137,12 +136,12 @@ a#orderMenu {
   color: #3e3e3e;
 }
 
-a#orderMenu:hover {
+a#orderMenuOrder:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#rentalMenu {
+a#rentalMenuOrder {
   position: absolute;
   left: 25px;
   top: 67px;
@@ -159,12 +158,12 @@ a#rentalMenu {
   color: #3e3e3e;
 }
 
-a#rentalMenu:hover {
+a#rentalMenuOrder:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#transferMenu {
+a#transferMenuOrder {
   position: absolute;
   left: 27px;
   top: 115px;
@@ -181,27 +180,27 @@ a#transferMenu {
   color: #3e3e3e;
 }
 
-a#transferMenu:hover {
+a#transferMenuOrder:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-#closeButton {
+#closeButtonOrder {
   color: #eeeeee;
   position: absolute;
   top: 20%;
   left: 45%;
 }
 
-#closeButton:hover {
+#closeButtonOrder:hover {
   color: #3e3e3e;
   transition: 0.5s;
 }
 
 h1#ourServices {
   position: absolute;
-  left: 1078px;
-  top: 371px;
+  left: 58%;
+  top: 46%;
 
   font-family: Roboto;
   font-style: italic;
@@ -220,8 +219,8 @@ h2#ourServicesDescription {
   position: absolute;
   width: 500px;
   height: 353px;
-  left: 1075px;
-  top: 434px;
+  left: 57.3%;
+  top: 50%;
 
   font-family: Roboto;
   font-style: italic;
@@ -234,20 +233,8 @@ h2#ourServicesDescription {
   color: #eeeeee;
 }
 
-img#vector1 {
-  position: absolute;
-  width: 737px;
-  height: 775px;
-  left: 120px;
-  top: 169.54px;
-  z-index: 1;
-  transform: rotate(0.07deg);
-}
-
 img#orderImage {
   position: absolute;
-  width: 734px;
-  height: 774px;
-  left: 121px;
-  top: 170px;
+  left: 10%;
+  top: 22%;
 }

@@ -10,7 +10,7 @@ import app from "../../assets/app.png";
 import instagram from "../../assets/instagram.png";
 import arrow1 from "../../assets/down-arrow.png";
 import arrow2 from "../../assets/down-arrow.png";
-import menuScript from "../../assets/menu.js";
+import menuScript from "../../assets/menuContact.js";
 
 const Contact: React.FC = () => {
   return (
