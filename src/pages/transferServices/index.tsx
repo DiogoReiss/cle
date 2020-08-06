@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import icon from "./favicon.png";
 import menuScript from "../../assets/menuTransfer";
 import "./transfer.css";
+import { FiX } from "react-icons/fi";
+
 
 import transfer from "../../assets/transfer.png";
 
@@ -14,28 +16,51 @@ const transferServices: React.FC = () => {
           <Link to="/" id="homeLogo">
             <img alt="logo" src={icon} id="homeLogo"></img>
           </Link>
-          <Link to="/" id="homeLayout">
-            INÍCIO
-          </Link>
-          <div id="servicesLayout" className="" onClick={menuScript}>
-            NOSSOS SERVIÇOS
-          </div>
-          <Link to="/contact" id="contactsLayout">
-            CONTATO
-          </Link>
-
-          <div id="servicesMenu" className="">
-            <div id="menuDetail" className=""></div>
-            <Link to="/orderServices" id="orderMenu" className="">
-              ENCOMENDAS
+          <section id="menuContactPageTransfer">
+            <Link to="/" id="homeLayoutTransfer">
+              INÍCIO
+              </Link>
+            <div id="servicesLayoutTransfer" className="">
+              <h1
+                id="ourServicesh1Transfer"
+                onClick={() => menuScript("openMenu")}
+              >
+                NOSSOS SERVICOS
+                </h1>
+              <section id="subMenuTransfer">
+                <div id="servicesMenuTransfer" className="">
+                  <div id="menuDetailTransfer" className="">
+                    <div id="closeButtonTransfer">
+                      <FiX
+                        id="closeButtonTransfer"
+                        onClick={() => menuScript("closeMenu")}
+                      />
+                    </div>
+                  </div>
+                  <Link to="/orderServices" id="orderMenuTransfer" className="">
+                    ENCOMENDAS
+                    </Link>
+                  <Link
+                    to="/rentalServices"
+                    id="rentalMenuTransfer"
+                    className=""
+                  >
+                    LOCAÇÃO
+                    </Link>
+                  <Link
+                    to="/transferServices"
+                    id="transferMenuTransfer"
+                    className=""
+                  >
+                    VIAGENS
+                    </Link>
+                </div>
+              </section>
+            </div>
+            <Link to="/contact" id="contactsLayoutTransfer">
+              CONTATO
             </Link>
-            <Link to="/rentalServices" id="rentalMenu" className="">
-              LOCAÇÃO
-            </Link>
-            <Link to="/transferServices" id="transferMenu" className="">
-              VIAGENS
-            </Link>
-          </div>
+          </section>
         </div>
       </header>
 

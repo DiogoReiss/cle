@@ -6,8 +6,6 @@ import Contact from "./pages/contact";
 import orderServices from "./pages/orderServices";
 import rentalServices from "./pages/rentalServices";
 import transferServices from "./pages/transferServices";
-/* <Route component={Contact} path="/contact" exact />
- */
 
 const Routes = () => {
   return (

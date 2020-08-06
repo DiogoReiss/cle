@@ -238,3 +238,66 @@ img#orderImage {
   left: 10%;
   top: 22%;
 }
+
+@media screen and (min-width: 1px) and (max-width: 832px) {
+  #orderImage {
+    visibility: hidden;
+  }
+  
+  section#menuContactPageOrder {
+    left: 10%
+  }
+
+  h1#ourServices {
+    left: 25%
+  }
+
+  h2#ourServicesDescription {
+    left: 23.3%
+  }
+}
+
+@media screen and (min-width: 833px) and (max-width: 1262px) {
+  #homeLogo {
+    visibility: hidden;
+  }
+  
+  #orderImage {
+    visibility: hidden;
+  }
+
+  section#menuContactPageOrder {
+    left: 19%;
+  }
+
+  h2#ourServicesDescription {
+    left: 31.3%
+  }
+
+  h1#ourServices {
+    left: 32%
+  }
+}
+
+@media screen and (min-width: 1263px) and (max-width: 1544px) {
+  section#menuContactPageOrder {
+    left:45%
+  }
+}
+
+@media screen and (min-height: 0px) and (max-width: 823px) {
+  section#menuContactPageOrder {
+    left: 33%
+  }
+
+  h2#ourServicesDescription {
+    left: 52.3%;
+    top: 88%
+  }
+
+  h1#ourServices {
+    left: 55%;
+    width: 160%;
+    top: 80%;
+  }
+}

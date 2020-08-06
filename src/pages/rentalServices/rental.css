@@ -7,15 +7,16 @@ img#homeLogo {
   width: 107px;
   height: 93px;
   margin: 25px 0px 0px 33px;
+  visibility: visible;
 }
 
-section#menu {
+section#menuContactPageRental {
   position: absolute;
   display: inline-flex;
   left: 55%;
 }
 
-a#homeLayout {
+a#homeLayoutRental {
   margin: 20% 15% 20% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -30,7 +31,7 @@ a#homeLayout {
   color: #eeeeee;
 }
 
-div#servicesLayout {
+div#servicesLayoutRental {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -45,7 +46,7 @@ div#servicesLayout {
   color: #eeeeee;
 }
 
-h1#ourServicesh1 {
+h1#ourServicesh1Rental {
   margin: 15% 32% 15% 32%;
   font-family: Roboto;
   font-style: normal;
@@ -60,7 +61,7 @@ h1#ourServicesh1 {
   color: #eeeeee;
 }
 
-a#contactsLayout {
+a#contactsLayoutRental {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -75,20 +76,20 @@ a#contactsLayout {
   color: #eeeeee;
 }
 
-a#contactsLayout:hover {
+a#contactsLayoutRental:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-a#homeLayout:hover {
+a#homeLayoutRental:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-div#servicesLayout:hover {
+div#servicesLayoutRental:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
 
-div#servicesMenu {
+div#servicesMenuRental {
   position: absolute;
   border-radius: 10px;
   width: 141px;
@@ -99,19 +100,19 @@ div#servicesMenu {
   visibility: hidden;
 }
 
-div#servicesMenu.activated {
+div#servicesMenuRental.activated {
   height: 163px;
   visibility: visible;
   transition: 0.5s;
 }
 
-div#servicesMenu.closed {
+div#servicesMenuRental.closed {
   height: 0px;
   visibility: hidden;
   transition: 0.5s;
 }
 
-div#menuDetail {
+div#menuDetailRental {
   border-radius: 3px;
   position: absolute;
   width: 141px;
@@ -120,7 +121,7 @@ div#menuDetail {
   background: #d09844;
 }
 
-a#orderMenu {
+a#orderMenuRental {
   position: absolute;
   left: 8px;
   top: 22px;
@@ -137,12 +138,12 @@ a#orderMenu {
   color: #3e3e3e;
 }
 
-a#orderMenu:hover {
+a#orderMenuRental:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#rentalMenu {
+a#rentalMenuRental {
   position: absolute;
   left: 25px;
   top: 67px;
@@ -159,12 +160,12 @@ a#rentalMenu {
   color: #3e3e3e;
 }
 
-a#rentalMenu:hover {
+a#rentalMenuRental:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#transferMenu {
+a#transferMenuRental {
   position: absolute;
   left: 27px;
   top: 115px;
@@ -181,44 +182,33 @@ a#transferMenu {
   color: #3e3e3e;
 }
 
-a#transferMenu:hover {
+a#transferMenuRental:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-#closeButton {
+#closeButtonRental {
   color: #eeeeee;
   position: absolute;
   top: 20%;
   left: 45%;
 }
 
-#closeButton:hover {
+#closeButtonRental:hover {
   color: #3e3e3e;
   transition: 0.5s;
 }
 
-img#vector3 {
-  position: absolute;
-  width: 739px;
-  height: 500px;
-  left: 108px;
-  top: 273px;
-  z-index: 1;
-}
-
 img#rentalImage {
   position: absolute;
-  width: 738px;
-  height: 493px;
-  left: 109px;
-  top: 275px;
+  left: 10%;
+  top: 22%;
 }
 
 section#rentOptions {
   position: absolute;
-  left: 1100px;
-  top: 288px;
+  left: 57.6%;
+  top: 34%;
 }
 
 div#comumCar {
@@ -366,8 +356,8 @@ h1#rentaCarOptions {
   position: absolute;
   width: 525px;
   height: 71px;
-  left: 1087px;
-  top: 217px;
+  left: 56.7%;
+  top: 24%;
 
   font-family: Roboto;
   font-style: italic;
@@ -380,4 +370,69 @@ h1#rentaCarOptions {
   letter-spacing: 0.055em;
 
   color: #ffbe5b;
+}
+
+@media screen and (min-width: 0px) and (max-width: 982px) {
+  img#homeLogo {
+    visibility: hidden;
+  }
+  img#rentalImage {
+    visibility: hidden;
+  }
+
+  section#menuContactPageRental {
+    left: 10%
+  }
+
+  h1#rentaCarOptions {
+    top: 29%;
+    left: 24.7%;
+
+  }
+  section#rentOptions {
+    left: 24.7%;
+    top: 37%
+  }
+}
+
+@media screen and (min-width: 983px) and (max-width: 1460px) {
+  img#homeLogo {
+    visibility: hidden;
+  }
+
+  img#rentalImage {
+    visibility: hidden;
+  }
+
+  section#menuContactPageRental {
+    left: 29%;
+  }
+
+  h1#rentaCarOptions {
+    left: 36.7%;
+    top: 34%;
+  }
+
+  section#rentOptions {
+    left: 37.7%;
+    top: 45%
+  }
+}
+
+@media screen and (min-height: 0px) and (max-height: 823px) {
+  section#menuContactPageRental {
+    top: 9%;
+    left: 24%;
+  }
+
+  h1#rentaCarOptions {
+    top: 57%;
+    left: 40.7%;
+
+  }
+
+  section#rentOptions {
+    left: 43.7%;
+    top: 68%;
+  }
 }

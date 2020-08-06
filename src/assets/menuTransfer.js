@@ -6,8 +6,8 @@ function menuScript(func) {
   }
   if (func === "closeMenu") {
     const menuBackgroundTransfer = document.querySelector("#servicesMenuTransfer");
-    menuBackgroundTransfer.classList.add("activated");
-    menuBackgroundTransfer.classList.remove("closed");
+    menuBackgroundTransfer.classList.remove("activated");
+    menuBackgroundTransfer.classList.add("closed");
   }
 }
 

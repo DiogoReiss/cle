@@ -6,8 +6,10 @@ function menuScript(func) {
   }
   if (func === "closeMenu") {
     const menuBackgroundRental = document.querySelector("#servicesMenuRental");
-    menuBackgroundRental.classList.add("activated");
-    menuBackgroundRental.classList.remove("closed");
+    menuBackgroundRental.classList.remove("activated");
+    menuBackgroundRental.classList.add("closed");
+    console.log('ta funfando')
+
   }
 }
 

@@ -9,13 +9,14 @@ img#homeLogo {
   margin: 25px 0px 0px 33px;
 }
 
-section#menu {
+
+section#menuContactPageTransfer {
   position: absolute;
   display: inline-flex;
   left: 55%;
 }
 
-a#homeLayout {
+a#homeLayoutTransfer {
   margin: 20% 15% 20% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -30,7 +31,7 @@ a#homeLayout {
   color: #eeeeee;
 }
 
-div#servicesLayout {
+div#servicesLayoutTransfer {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -45,7 +46,7 @@ div#servicesLayout {
   color: #eeeeee;
 }
 
-h1#ourServicesh1 {
+h1#ourServicesh1Transfer {
   margin: 15% 32% 15% 32%;
   font-family: Roboto;
   font-style: normal;
@@ -60,7 +61,7 @@ h1#ourServicesh1 {
   color: #eeeeee;
 }
 
-a#contactsLayout {
+a#contactsLayoutTransfer {
   margin: 15% 15% 15% 15%;
   font-family: Roboto;
   font-style: normal;
@@ -75,20 +76,20 @@ a#contactsLayout {
   color: #eeeeee;
 }
 
-a#contactsLayout:hover {
+a#contactsLayoutTransfer:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-a#homeLayout:hover {
+a#homeLayoutTransfer:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
-div#servicesLayout:hover {
+div#servicesLayoutTransfer:hover {
   color: #ffbe5b;
   transition: 0.5s;
 }
 
-div#servicesMenu {
+div#servicesMenuTransfer {
   position: absolute;
   border-radius: 10px;
   width: 141px;
@@ -99,19 +100,19 @@ div#servicesMenu {
   visibility: hidden;
 }
 
-div#servicesMenu.activated {
+div#servicesMenuTransfer.activated {
   height: 163px;
   visibility: visible;
   transition: 0.5s;
 }
 
-div#servicesMenu.closed {
+div#servicesMenuTransfer.closed {
   height: 0px;
   visibility: hidden;
   transition: 0.5s;
 }
 
-div#menuDetail {
+div#menuDetailTransfer {
   border-radius: 3px;
   position: absolute;
   width: 141px;
@@ -120,7 +121,7 @@ div#menuDetail {
   background: #d09844;
 }
 
-a#orderMenu {
+a#orderMenuTransfer {
   position: absolute;
   left: 8px;
   top: 22px;
@@ -137,12 +138,12 @@ a#orderMenu {
   color: #3e3e3e;
 }
 
-a#orderMenu:hover {
+a#orderMenuTransfer:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#rentalMenu {
+a#rentalMenuTransfer {
   position: absolute;
   left: 25px;
   top: 67px;
@@ -159,12 +160,12 @@ a#rentalMenu {
   color: #3e3e3e;
 }
 
-a#rentalMenu:hover {
+a#rentalMenuTransfer:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-a#transferMenu {
+a#transferMenuTransfer {
   position: absolute;
   left: 27px;
   top: 115px;
@@ -181,19 +182,19 @@ a#transferMenu {
   color: #3e3e3e;
 }
 
-a#transferMenu:hover {
+a#transferMenuTransfer:hover {
   color: #d09844;
   transition: 0.25s;
 }
 
-#closeButton {
+#closeButtonTransfer {
   color: #eeeeee;
   position: absolute;
   top: 20%;
   left: 45%;
 }
 
-#closeButton:hover {
+#closeButtonTransfer:hover {
   color: #3e3e3e;
   transition: 0.5s;
 }
@@ -202,8 +203,8 @@ h1#transferServicesTitle {
   position: absolute;
   width: 525px;
   height: 71px;
-  left: 1169px;
-  top: 405px;
+  left: 62%;
+  top: 37%;
   font-family: Roboto;
   font-style: italic;
   font-weight: bold;
@@ -220,8 +221,8 @@ h2#transferServicesDescription {
   position: absolute;
   width: 452px;
   height: 426px;
-  left: 1154px;
-  top: 466px;
+  left: 61%;
+  top: 42%;
   font-family: Roboto;
   font-style: italic;
   font-weight: normal;
@@ -232,19 +233,72 @@ h2#transferServicesDescription {
   color: #eeeeee;
 }
 
-img#vector2 {
-  position: absolute;
-  width: 824.5px;
-  height: 626.5px;
-  left: 200.5px;
-  top: 230.5px;
-  z-index: 1;
-}
-
 img#transferImage {
   position: absolute;
-  width: 822.04px;
-  height: 625.4px;
-  left: 200.91px;
-  top: 231px;
+  left: 10%;
+  top: 22%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 955px) {
+  img#transferImage {
+    visibility: hidden;
+  }
+
+  img#homeLogo {
+    visibility: hidden;
+  }
+
+  section#menuContactPageTransfer {
+    left: 13%
+  }
+
+  h1#transferServicesTitle {
+    left: 31%
+  }
+
+  h2#transferServicesDescription {
+    left: 28%
+  }
+}
+
+@media screen and (min-width: 956px) and (max-width: 1541px) {
+  img#transferImage {
+    visibility: hidden;
+  }
+
+  img#homeLogo {
+    visibility: hidden;
+  }
+
+  h1#transferServicesTitle {
+    left: 40%;
+    top: 37%
+  }
+
+  h2#transferServicesDescription {
+    top: 44%;
+    left: 38%
+  }
+
+  section#menuContactPageTransfer {
+    left: 27%;
+  }
+
+}
+
+@media screen and (max-height: 823px) {
+  section#menuContactPageTransfer {
+    left: 25%;
+    top: 12%
+  }
+
+  h1#transferServicesTitle {
+    left: 56%;
+    top: 62%;
+  }
+
+  h2#transferServicesDescription {
+    left: 51%;
+    top: 70%;
+  }
 }
